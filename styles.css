@@ -1,0 +1,137 @@
+h1,
+h4 {
+	text-align: center;
+}
+
+* {
+	overflow: hidden;
+	margin: 0;
+}
+
+.container {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+	width: 100vw;
+	height: 100vh;
+}
+
+.left-container {
+	margin: 20px;
+	padding: 10px;
+	width: 300px;
+	border-radius: 20px;
+	background-color: rgb(200, 200, 200);
+}
+
+.marker-container {
+	background-color: rgb(255, 255, 255);
+	padding: 10px 0;
+	width: 250px;
+	margin: auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.marker {
+	width: 200px;
+	height: 25px;
+	margin: 10px auto;
+}
+
+.marker:hover {
+	cursor: pointer;
+}
+
+.cap {
+	width: 60px;
+	height: 25px;
+}
+
+.sleeve {
+	width: 110px;
+	height: 25px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap,
+.sleeve {
+	display: inline-block;
+}
+
+.red {
+	background: linear-gradient(
+		rgb(122, 74, 14),
+		rgb(245, 62, 113),
+		rgb(162, 27, 27)
+	);
+	box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.red:hover {
+	box-shadow: 0 0 20px 0 red;
+}
+
+.green {
+	background: linear-gradient(#55680d, #71f53e, #116c31);
+	box-shadow: 0 0 20px 0 #3b7e20cc;
+}
+
+.green:hover {
+	box-shadow: 0 0 20px 0 green;
+}
+
+.blue {
+	background: linear-gradient(
+		hsl(186, 76%, 16%),
+		hsl(223, 90%, 60%),
+		hsl(240, 56%, 42%)
+	);
+	box-shadow: 0 0 20px 0 hsl(223, 59%, 31%, 0.8);
+}
+
+.blue:hover {
+	box-shadow: 0 0 20px 0 blue;
+}
+
+.yellow {
+	background: linear-gradient(
+		rgb(130, 130, 20),
+		rgb(240, 200, 30),
+		rgb(160, 140, 50)
+	);
+	box-shadow: 0 0 20px 0 rgba(90, 90, 12, 0.8);
+}
+
+.yellow:hover {
+	box-shadow: 0 0 20px 0 yellow;
+}
+
+.black {
+	background: linear-gradient(
+		rgb(10, 10, 10),
+		rgb(50, 50, 50),
+		rgb(20, 20, 20)
+	);
+	box-shadow: 0 0 20px 0 rgba(15, 15, 15, 0.8);
+}
+
+.black:hover {
+	box-shadow: 0 0 20px 0 black;
+}
+
+.right-container {
+	background-color: rgb(200, 200, 200);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.writing-space {
+	height: 36vh;
+	width: 40vw;
+}
